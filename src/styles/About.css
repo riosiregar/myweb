@@ -1,0 +1,76 @@
+#about {
+  padding: 5rem 0;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+#about .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#about h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+  color: #007bff;
+}
+
+#about .row {
+  display: flex;
+  justify-content: center;
+}
+
+#about .card {
+  border: none;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#about .card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+#about .card-body {
+  padding: 2rem;
+}
+
+#about .card-title {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  font-weight: 600;
+  color: #333;
+}
+
+#about .card-text, #about .list-unstyled li {
+  font-size: 1rem;
+  color: #555;
+}
+
+#about .icon {
+  color: #007bff;
+  transition: color 0.3s ease;
+}
+
+#about .card:hover .icon {
+  color: #0056b3;
+}
+
+#about .list-unstyled {
+  margin-top: 1rem;
+  padding-left: 0;
+}
+
+#about .list-unstyled li {
+  font-size: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+#about .btn {
+  margin-top: 2rem;
+  font-size: 1.25rem;
+  padding: 0.75rem 1.5rem;
+}

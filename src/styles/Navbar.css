@@ -1,0 +1,15 @@
+.navbar {
+  transition: background 0.5s;
+}
+
+.navbar.scrolled {
+  background: #000;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  font-size: 1rem;
+}

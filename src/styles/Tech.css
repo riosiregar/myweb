@@ -1,0 +1,32 @@
+#tech {
+  padding: 60px 0;
+  background-color: #f8f9fa;
+}
+
+#tech .card {
+  border: none;
+  transition: transform 0.3s ease-in-out;
+}
+
+#tech .card:hover {
+  transform: translateY(-10px);
+}
+
+#tech .fa {
+  color: #007bff;
+}
+
+.fade-in {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.fade-in.visible {
+  opacity: 1;
+}
+
+@media (max-width: 992px) {
+  #tech h2 {
+    font-size: 2rem;
+}
+}
